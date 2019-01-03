@@ -10,6 +10,8 @@ from django.views import generic
 from django.utils import timezone
 from .models import Choice, Question
 # Create your views here.
+def homepage(request):
+	return render(request, 'homepage.html')
 
 class IndexView(generic.ListView):
 	template_name = 'polls/index.html'
