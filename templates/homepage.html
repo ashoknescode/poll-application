@@ -1,0 +1,24 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+{% block head %}
+<meta charset="utf-8">
+<title>Polls App</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<!--Head section of body page-->
+
+<div class="container">
+    <div class="body-padding">
+    <div class="col-md-8 offset-2 text-center">
+      <h2 class="heading-service">Hello world</h2>
+      <p class="subheading"> We are here at Polls App page.</p>
+      <a href="https://www.nescode.com/" class="btn btn-light">Read More</a>
+    </div>
+    </div>
+</div>
+<!--Head section of body page-->
+{% endblock %}
